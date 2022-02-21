@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import "nullstyle.scss";
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #595959;
+    padding: 5px 0 200px 0;
+}
+.maincontent {
+    width: 1200px;
+    height: 1312px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.maincontent__body {
+    padding: 100px 85px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);;
+    h1{
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 55px;
+        color: #000000;
+    }
+    h2{
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        color: #000000;
+    }
+    h3{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: bold;
+        color: #000000;
+        span{
+            color: #FB6D3A;
+        }
+    }
+    h4{
+        font-size: 12px;
+        line-height: 15px;
+        color: #A8A8A8;
+
+    }
+    ul{
+        position: relative;
+        li{
+            margin: 0 0 3px 15px;
+        }
+        li::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            margin: 10px 0 0 0;
+            background-color: #595959;
+            color: #595959;
+        } 
+    }
+}
+.maincontent__head {
+    span{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+    }
+    span{display:block; margin: 0 0 20px 0;}
+    h1{margin: 0 0 20px 0;}
+    margin: 0 0 40px 0;
+}
+.maincontent__projects {
+    h2{margin: 0 0 10px 0;}
+    ol{
+        margin: 0 0 0 15px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+        li{
+            margin: 3px 0 0 0;
+            padding: 0 0 0 10px;
+        }
+        .maicnontent__projects-listtext{
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: normal;
+            color: #595959;
+        }
+        .brackets{
+            font-weight: bold;
+            color: black;
+        }
+    }
+    margin: 0 0 50px 0;
+}
+.maincontent__work {
+    width: 525px;
+    h2{margin: 0 0 12px 0;}
+    h3{margin: 0 0 11px 0;}
+    h4{margin: 0 0 8px 0;}
+}
+.maincontent__work-firstwork {
+    margin: 0 0 15px 0;
+}
+.maincontent__work-secondwork {
+    margin: 0 0 20px 0;
+}
+.maincontent__work-thirdwork {
+    margin: 0 0 45px 0;
+}
+.maincontent__education {
+    h2{margin: 0 0 12px 0;}
+    h3{margin: 0 0 11px 0;}
+    h4{margin: 12px 0 0 0;}
+}
+.maicontent__side {
+    width: 370px;
+    background: #1E2939;
+    p{
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    ul{
+        position: relative;
+        li{
+            margin: 0 0 0 15px;
+            color: #FFFFFF;
+        }
+        li::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            margin: 10px 0 0 0;
+            background-color: #FB6D3A;
+        } 
+    }
+}
+.maincontent__side-photo {
+    margin: 40px 0 0 0;
+    img{
+        height: 370px;
+        width: 370px;
+    }
+}
+.maincontent__sidecontent{
+    padding: 40px;  
+}
+.maincontent__side-contacts {
+    margin: 0 0 0 0;
+    width: 185px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    p{
+        margin: 0 0 8px 0;
+    }
+    a{
+        margin: 0 0 0 10px;
+        color: #FFFFFF;
+        opacity: 0.5;
+        font-weight: normal;
+    }
+    margin: 0 0 45px 0;
+}
+.maincontent__side-techskills {
+    margin: 0 0 43px 0;
+    p{
+        margin: 0 0 10px 0;
+    }
+}
+.maincontent__side-softskills {
+    p{
+        margin: 0 0 10px 0;
+    }
+}
